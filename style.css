@@ -30,9 +30,11 @@ body {
 
 
 }
-.green{
+
+.green {
     color: #cad403;
 }
+
 .top-area h1 {
     margin-top: 0;
     text-align: center;
@@ -41,6 +43,7 @@ body {
     font-size: 50px;
 
 }
+
 /**************** top area style done***********/
 
 .donation-main-area {
@@ -62,22 +65,25 @@ body {
     font-size: 50px;
 }
 
-.main-money-area{
+.main-money-area {
     display: flex;
     justify-content: center;
     margin-bottom: 70px;
 }
-.money{
+
+.money {
     padding: 15px 25px;
     font-size: 20px;
-    background-color:#b3bb1e14;
+    background-color: #b3bb1e14;
     margin: 0 10px;
     border-radius: 5px;
 }
-#highlight{
-    background-color:#b3bb1e50;
+
+#highlight {
+    background-color: #b3bb1e50;
     border: 2px solid #B2BB1E;
 }
+
 input {
     outline: none;
     border: none;
@@ -108,15 +114,32 @@ input {
 
 /*******Donation area style done  *******/
 
-.card-area{
+.card-area {
     display: flex;
+    margin-bottom: 100px;
 }
-.card{
-     width: 30%;
-    padding-left: 5%;
-    padding-right: 5%;
+
+.card {
+    width: 30%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 6px 6px gray;
+    text-align: justify;
+    margin-left: 36px;
+    margin-right: 29px;
 }
-.card-area img{
+
+.card-area img {
+    padding-top: 16px;
     height: 50px;
     width: 60px;
+}
+#gold{
+    background-color: #f1e5ac8f;
+}
+#sky{
+    background-color: #87cefa79;
+}
+#orange{
+    background-color: #FCC6AA;
 }
