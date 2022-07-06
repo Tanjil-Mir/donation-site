@@ -144,6 +144,32 @@ input {
     background-color: #FCC6AA;
 }
 /*********card area style done  ***********/
+.contribute-area{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    margin-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    margin-left: 70px;
+}
+.contribute-details{
+    margin-left: 100px;
+    text-align: center;
+}
+.contribute-details h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.contribute-details p{
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+.contribute-details a{
+    margin: 0;
+}
 .input-area{
     background-color: #FAEBEB;
     margin: auto;
