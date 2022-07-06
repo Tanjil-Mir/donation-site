@@ -44,16 +44,17 @@ body {
 /**************** top area style done***********/
 
 .donation-main-area {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
-.donation-top-area p {
+.heading-top-area p {
     color: black;
     font-size: 15px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
-.donation-top-area h1 {
+.heading-top-area h1 {
     margin-top: 0;
     text-align: center;
     color: black;
@@ -106,3 +107,16 @@ input {
 }
 
 /*******Donation area style done  *******/
+
+.card-area{
+    display: flex;
+}
+.card{
+     width: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.card-area img{
+    height: 50px;
+    width: 60px;
+}
