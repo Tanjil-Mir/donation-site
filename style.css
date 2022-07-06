@@ -58,8 +58,16 @@ donation-main-area {
     font-size: 50px;
 }
 
+.main-money-area{
+    display: flex;
+}
+.money{
+    padding: 43px 22px;
+    background-color: gray;
+    border: 5px solid #b3bb1e00;
+    margin: 0 20px;
 
-
+}
 input {
     outline: none;
     border: none;
